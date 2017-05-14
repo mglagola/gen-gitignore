@@ -12,12 +12,12 @@ const fs = Promise.promisifyAll(require('fs'));
 
 const cli = meow(`
   Usage
-    $ node index.js <gitignore-name>
+    $ genignore <gitignore-name>
 
   Examples
-    $ node index.js Swift
-    $ node index.js android
-    $ node index.js node
+    $ genignore Swift
+    $ genignore android
+    $ genignore node
 `);
 
 function capitalize (str) {

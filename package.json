@@ -1,7 +1,7 @@
 {
-  "name": "touch-ignore",
+  "name": "gen-gitignore",
   "version": "1.0.0",
-  "description": "",
+  "description": "Easily generate gitignore files via command line",
   "main": "index.js",
   "preferGlobal": true,
   "engines": {
@@ -13,9 +13,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "generate",
+    "create",
+    "touch",
+    "gitignore",
+    "git",
+    "easi"
+  ],
+  "author": "Mark Glagola",
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.0",
     "chalk": "^1.1.3",

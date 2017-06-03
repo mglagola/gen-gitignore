@@ -3,7 +3,7 @@
 It's as easy as
 
 ```bash
-$ genignore node sass
+$ gitignore node sass
 ```
 
 ![demo](https://cl.ly/103c273R313Q/Screen%20Recording%202017-05-14%20at%2009.56%20AM.gif)
@@ -18,10 +18,10 @@ $ npm install -g gen-gitignore
 
 ```
 Usage
-  $ genignore <gitignore-names...>
+  $ gitignore <gitignore-names...>
 
 Examples
-  $ genignore swift ruby
-  $ genignore android
-  $ genignore node sass
+  $ gitignore swift ruby
+  $ gitignore android
+  $ gitignore node sass
 ```

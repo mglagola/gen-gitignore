@@ -83,8 +83,7 @@ async function gen (names) {
             process.exit(1);
         }
         await logVersionCheck(pkg);
-        const success = true // await gen(input);
-        // const success = await gen(input);
+        const success = await gen(input);
         return process.exit(success ? 0 : 1);
     } catch (error) {
         console.log(chalk.red(error.message));
